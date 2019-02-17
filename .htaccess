@@ -1,0 +1,6 @@
+#no semicolon
+#RewriteEngine on
+#RewriteRule ^post$ post.php
+#RewriteRule ^admin/post/([a-zA-Z_]+)/([0-9]+)$ admin/post.php?source=$1&post_id=$2
+#RewriteRule ^admin/post$ admin/post.php
+
